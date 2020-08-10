@@ -13,7 +13,7 @@
 (function() {
   var SeqUuid, uuid;
 
-  uuid = typeof require === 'function' ? require('node-uuid') : this.uuid;
+  uuid = typeof require === 'function' ? require('uuid') : this.uuid;
 
   SeqUuid = (function() {
     function SeqUuid() {

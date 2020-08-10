@@ -1,19 +1,27 @@
 {
-  "name"          : "sequential-guid",
-  "description"   : "Sequential unique identifiers generator",
-  "url"           : "https://github.com/pnowosie/sequential-guid",
-  "keywords"      : ["uuid", "guid", "sequid", "sequence identifier"],
-  "author"        : "Pawel Nowosielski <nowosielski@gmail.com>",
-  "contributors"  : [ ],
-  "dependencies"  : {
-        "node-uuid" : ">= 1.4.0"
-  },
-  "scripts": { 
-        "test"  : "coffee ./test.coffee",
-		"start" : "coffee -c ./sequid.coffee"
-  },
-  "main"          : "./sequid.js",
-  "repository"    : { "type" : "git", "url" : "https://github.com/pnowosie/sequential-guid.git" },
-  "engine"        : "0.10.4",
-  "version"       : "1.1.0"
+      "name": "sequential-guid",
+      "description": "Sequential unique identifiers generator",
+      "url": "https://github.com/pnowosie/sequential-guid",
+      "keywords": [
+            "uuid",
+            "guid",
+            "sequid",
+            "sequence identifier"
+      ],
+      "author": "Pawel Nowosielski <nowosielski@gmail.com>",
+      "contributors": [],
+      "dependencies": {
+            "uuid": "^3.3.2"
+      },
+      "scripts": {
+            "test": "coffee ./test.coffee",
+            "start": "coffee -c ./sequid.coffee"
+      },
+      "main": "./sequid.js",
+      "repository": {
+            "type": "git",
+            "url": "https://github.com/pnowosie/sequential-guid.git"
+      },
+      "engine": "0.10.4",
+      "version": "1.1.0"
 }
