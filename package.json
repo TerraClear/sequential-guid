@@ -1,7 +1,7 @@
 {
-      "name": "sequential-guid",
+      "name": "@terraclear/sequential-guid",
       "description": "Sequential unique identifiers generator",
-      "url": "https://github.com/pnowosie/sequential-guid",
+      "url": "https://github.com/TerraClear/sequential-guid",
       "keywords": [
             "uuid",
             "guid",
@@ -20,7 +20,7 @@
       "main": "./sequid.js",
       "repository": {
             "type": "git",
-            "url": "https://github.com/pnowosie/sequential-guid.git"
+            "url": "https://github.com/TerraClear/sequential-guid.git"
       },
       "engine": "0.10.4",
       "version": "1.1.0"
